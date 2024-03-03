@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: INGEST
+    description: Landing zone for source system
+    database: LOGIN5
+    schema: INGEST
+    tables:
+      - name: EQUIPMENT_MAPPING
+      - name: FENDT_DATA_PARTITIONED
+      - name: FENDT_GPS
+      - name: TELEMATICS_DUMP
+      - name: WIALON_DUMP
